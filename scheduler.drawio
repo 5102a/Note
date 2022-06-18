@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T16:29:05.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="9M66TqPY8ssJ7JAjJnd7" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-18T17:07:11.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="p8nhKM1ShhyRFl5KuIpi" version="20.0.1" type="github">
   <diagram id="bCjpqoXcOK5Xh0hdmK70" name="第 1 页">
-    <mxGraphModel dx="2313" dy="1223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="8000" math="0" shadow="0">
+    <mxGraphModel dx="1542" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="8000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,6 +234,19 @@
         <mxCell id="WVUbfzbR0bIWUbWMhhME-68" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="WVUbfzbR0bIWUbWMhhME-65" target="WVUbfzbR0bIWUbWMhhME-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WVUbfzbR0bIWUbWMhhME-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="WVUbfzbR0bIWUbWMhhME-65" target="WVUbfzbR0bIWUbWMhhME-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1146" y="1770" />
+              <mxPoint x="1695" y="1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVUbfzbR0bIWUbWMhhME-206" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="WVUbfzbR0bIWUbWMhhME-205">
+          <mxGeometry x="-0.7523" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WVUbfzbR0bIWUbWMhhME-65" value="任务是否存在？" style="rhombus;whiteSpace=wrap;html=1;fontColor=default;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1070.62" y="2220" width="150" height="80" as="geometry" />
         </mxCell>
@@ -361,6 +374,11 @@
         <mxCell id="WVUbfzbR0bIWUbWMhhME-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="WVUbfzbR0bIWUbWMhhME-104" target="WVUbfzbR0bIWUbWMhhME-128">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WVUbfzbR0bIWUbWMhhME-204" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="WVUbfzbR0bIWUbWMhhME-129">
+          <mxGeometry x="-0.2786" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WVUbfzbR0bIWUbWMhhME-104" value="获取当前任务回调，并且回调是函数？" style="rhombus;whiteSpace=wrap;html=1;fontColor=default;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1650.01" y="5580" width="249.99" height="80" as="geometry" />
         </mxCell>
@@ -405,6 +423,19 @@
         </mxCell>
         <mxCell id="WVUbfzbR0bIWUbWMhhME-123" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="WVUbfzbR0bIWUbWMhhME-119" target="WVUbfzbR0bIWUbWMhhME-122">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVUbfzbR0bIWUbWMhhME-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="WVUbfzbR0bIWUbWMhhME-119" target="WVUbfzbR0bIWUbWMhhME-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="6060" />
+              <mxPoint x="1160" y="6370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVUbfzbR0bIWUbWMhhME-203" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="WVUbfzbR0bIWUbWMhhME-202">
+          <mxGeometry x="-0.8154" y="-5" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WVUbfzbR0bIWUbWMhhME-119" value="继续获取任务队列任务，获取的任务是当前task？" style="rhombus;whiteSpace=wrap;html=1;fontColor=default;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1194.37" y="6020" width="220" height="80" as="geometry" />
