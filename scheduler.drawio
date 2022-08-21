@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T11:35:22.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="XlYuU1h8yNyRhSLg1tTb" version="20.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-21T11:36:59.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="jKvYh-ng_GS8JgWwMobz" version="20.2.5" type="github" pages="2">
   <diagram id="bCjpqoXcOK5Xh0hdmK70" name="第 1 页">
     <mxGraphModel dx="1542" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="8000" math="0" shadow="0">
       <root>
@@ -906,7 +906,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A9fPdBf1DuJ4dn3KVuyN-84" value="shouldYieldToHost&lt;br&gt;（执行时间不超过5ms）或&lt;br&gt;超出优先级最长过期时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A9fPdBf1DuJ4dn3KVuyN-84" value="shouldYieldToHost&lt;br&gt;（loop执行时间不超过5ms）或&lt;br&gt;超出优先级最长过期时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2350" y="715" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="A9fPdBf1DuJ4dn3KVuyN-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="A9fPdBf1DuJ4dn3KVuyN-85" target="A9fPdBf1DuJ4dn3KVuyN-87">
