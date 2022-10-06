@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T13:50:57.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="20.3.6" etag="FCyHh2lF2uFg-VJZq8fg" type="github"><diagram id="SGwZRh80OsiY2iepwWqa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-06T13:59:10.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="7gQsWfW85wpUpRCj3Axs" version="20.3.6" type="github">
+  <diagram id="SGwZRh80OsiY2iepwWqa" name="第 1 页">
+    <mxGraphModel dx="638" dy="337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="8000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-3" value="创建goroutine" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="440" as="targetPoint" />
+            <mxPoint x="1290" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="400" width="80" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E7tXMzb9oO97Nayjuc4r-2" target="E7tXMzb9oO97Nayjuc4r-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="610" />
+              <mxPoint x="1490" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="430" width="70" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-4" value="main goroutine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-5" value="sub goroutine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="370" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.778;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E7tXMzb9oO97Nayjuc4r-7" target="E7tXMzb9oO97Nayjuc4r-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-7" value="msg" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="600" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-14" value="向通道发送数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="625" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-19" value="等待channel&lt;br&gt;接收数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-22" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="505" width="20" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-23" value="阻塞" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="545" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-24" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="615" width="20" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-25" value="执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="625" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7tXMzb9oO97Nayjuc4r-26" value="收到数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="595" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
